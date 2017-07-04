@@ -1,0 +1,13 @@
+html {
+  background-color: $background-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  font-family: $primary-font-family;
+}
+
+article, aside, figure, footer, header, hgroup, section {
+  display: block;
+}

@@ -1,0 +1,15 @@
+// Colors
+$white: #FFF !default;
+$black: #000 !default;
+
+$grey-dark: lighten($black, 25%);
+$grey: lighten($black, 50%);
+$grey-light: lighten($black, 75%);
+
+$text-color: #333 !default;
+
+// Fonts
+$primary-font-family: 'Nunito', Helvetica, Arial, sans-serif !default;
+
+// Page
+$background-color: $white !default;

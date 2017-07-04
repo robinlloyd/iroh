@@ -1,0 +1,35 @@
+// Button vars
+$button-color: $grey !default;
+$button-background-color: $white !default;
+$button-border-color: $grey-light !default;
+$button-border-radius: 3px !default;
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 12px;
+  font-size: 16px;
+  text-decoration: none;
+  text-rendering: auto;
+  color: $button-color;
+  line-height: 1;
+  font-weight: normal;
+  background-color: $button-background-color;
+  border: transparent 1px solid;
+  border-color: $button-border-color;
+  border-radius: $button-border-radius;
+  transition: border-color 0.3s,
+    color 0.3s,
+    background-color 0.3s,
+    box-shadow 0.3s;
+  outline: none;
+
+  &:hover {
+    color: darken($button-color, 15%);
+    border-color: darken($button-border-color, 15%);
+    transition: border-color 0.3s,
+      color 0.3s,
+      background-color 0.3s,
+      box-shadow 0.3s;
+  }
+}

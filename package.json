@@ -1,0 +1,14 @@
+{
+  "name": "iroh",
+  "version": "0.0.1",
+  "description": "A clean front end framework for web developers.",
+  "main": "gulpfile.js",
+  "author": "Robin Lloyd",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
