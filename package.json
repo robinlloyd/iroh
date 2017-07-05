@@ -1,6 +1,6 @@
 {
   "name": "iroh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A clean front end framework for web developers.",
   "main": "gulpfile.js",
   "author": "Robin Lloyd",
