@@ -5,6 +5,12 @@
   "main": "gulpfile.js",
   "author": "Robin Lloyd",
   "license": "MIT",
+  "bugs": "https://github.com/robinlloyd/iroh/issues",
+  "homepage": "https://github.com/robinlloyd/iroh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinlloyd/iroh"
+  },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
